@@ -1,9 +1,6 @@
 {
   "name": "parastuo-site",
   "platform": "next",
-  "build": {
-    "output": ".next"
-  },
   "env": {
     "NODE_ENV": "production"
   }
