@@ -1,8 +1,15 @@
 {
-"app":"parastuo"
-"port":3001
-"build":{
-"location":"iran"
+  "name": "parastuo-site",
+  "platform": "react",
+  "build": {
+    "command": "npm run build",
+    "output": ".next"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "deploy": {
+    "start": "npm start"
+  }
 }
-"disks":[]
-}
+
